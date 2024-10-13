@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card2</title>
+    <style>
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxtype2{
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    gap: 1rem;
+    border: 1px solid #000;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.boxtype2-image{
+   
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    
+}
+.boxtype2 p {
+    grid-row: 3;
+    align-self: auto;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="boxtype2">
+    <h1>Sale items</h1>
+    <div class="boxtype2-image">
+<div><img src="/box2_image.jpg"  height="100px" width="200px" alt="img"><h3>item1</h3></div>
+<div><img src="/box3_image.jpg"  height="100px" width="200px" alt="img"><h3>item1</h3></div>
+<div><img src="/box6_image.jpg"  height="100px" width="200px" alt="img"><h3>item1</h3></div>
+<div><img src="/box4_image.jpg"  height="100px" width="200px" alt="img"><h3>item1</h3></div>
+</div>
+<p>see ,more</p>
+
+</div>
+    </div>
+</body>
+</html>
